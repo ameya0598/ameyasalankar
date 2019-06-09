@@ -1,0 +1,90 @@
+#intro {
+  position: relative;
+  z-index: 0;
+  padding: 16em;
+  background: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/beautiful-background-hd-11.jpg");
+  color: white;
+}
+
+#portfolio {
+  padding: 4em;
+  position: relative;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#aboutme {
+  padding: 4em;
+  background: #0b2545;
+  color: white;
+}
+
+#contactme {
+  padding: 4em;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-unit {
+  margin: 5px;
+  padding: 2.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.25em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 2.5em;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background: #0b2545;
+  color: white;
+  padding: 15px;
+}
+
+.copyright {
+  padding: 15px;
+}
+
+.btn-social {
+  border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
